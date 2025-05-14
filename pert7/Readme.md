@@ -88,3 +88,16 @@ ketikkan di terminal
 
 nano /etc/wsl.conf
 ```
+
+```php
+untuk matikan bisa lakukan
+➜  ~ cd perkuliahan/struktur_data
+➜  struktur_data git:(main) cd pert7
+➜  pert7 git:(main) docker compose down
+[+] Running 4/4
+ ✔ Container nginx_strukdat  Removed                                                              0.9s
+ ✔ Container strukdat        Removed                                                              0.7s
+ ✔ Container dbstrukdat      Removed                                                              2.8s
+ ✔ Network esgul_default     Removed                                                              0.8s
+➜  pert7 git:(main)                            
+```
